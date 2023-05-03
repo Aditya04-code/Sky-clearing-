@@ -16,7 +16,7 @@ background-size: cover;
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 # importing the model
-loaded_model = open("C:/Users/adity/OneDrive/Desktop/New folder/visi/best.pkl","rb")
+loaded_model = open("best.pkl","rb")
 classifier = pickle.load(loaded_model)
 st.sidebar.header('User input Parameters')
 st.markdown("<h1 style='color: black;'>Skyclearance Prediction App</h1>", unsafe_allow_html=True)
